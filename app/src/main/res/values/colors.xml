@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Blue-Mint Color Scheme -->
+    <color name="primary_blue">#2196F3</color>
+    <color name="primary_blue_dark">#1976D2</color>
+    <color name="primary_blue_light">#64B5F6</color>
+    <color name="primary_mint">#4CAF50</color>
+    <color name="primary_mint_dark">#388E3C</color>
+    <color name="primary_mint_light">#81C784</color>
+    <color name="accent_cyan">#00BCD4</color>
+    <color name="accent_teal">#009688</color>
+
+    <!-- Surface and Background Colors -->
+    <color name="surface_elevated">#F5F5F5</color>
+    <color name="surface_primary">#FFFFFF</color>
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_card">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_light">#BDBDBD</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Splash Screen Colors -->
+    <color name="splash_primary">#2196F3</color>
+    <color name="splash_secondary">#4CAF50</color>
+    <color name="splash_accent">#00BCD4</color>
+    <color name="splash_gradient_start">#1976D2</color>
+    <color name="splash_gradient_end">#388E3C</color>
+
+
+    <!-- Dark Purple Theme Colors -->
+    <color name="dark_purple">#11001C</color>
+    <color name="primary_dark">#1E0D40</color>
+    <color name="primary_variant_dark">#3A1B6A</color>
+    <color name="secondary_dark">#BB86FC</color>
+    <color name="secondary_variant_dark">#3700B3</color>
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="error_dark">#CF6679</color>
+
+</resources>

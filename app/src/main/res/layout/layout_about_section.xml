@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_purple"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface_dark"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- About Me Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About me :"
+            android:textColor="@color/secondary_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.02"
+            android:layout_marginBottom="12dp" />
+
+        <!-- About Me Description -->
+        <TextView
+            android:id="@+id/aboutDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="seorang pecinta sepak bola yang suka bermain dan menonton pertandingan, penggemar musik dari berbagai genre, dan gamer yang menikmati tantangan baik di dunia virtual maupun nyata. Saya juga suka menikmati waktu sendiri dengan menonton film, terutama sci-fi dan teknologi futuristik, karena saya lebih nyaman di lingkungan tenang daripada keramaian. Impian saya adalah menjadi AI Engineer karena terinspirasi oleh kecanggihan kecerdasan buatan dan bagaimana teknologi bisa membentuk masa depan."
+            android:textColor="@color/text_white"
+            android:textSize="12sp"
+            android:lineSpacingExtra="4dp"
+            android:justificationMode="inter_word" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView> 

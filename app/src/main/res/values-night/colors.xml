@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Mode Blue-Mint Color Scheme -->
+    <color name="primary_blue">#42A5F5</color>
+    <color name="primary_blue_dark">#1E88E5</color>
+    <color name="primary_blue_light">#90CAF9</color>
+    <color name="primary_mint">#66BB6A</color>
+    <color name="primary_mint_dark">#4CAF50</color>
+    <color name="primary_mint_light">#A5D6A7</color>
+    <color name="accent_cyan">#26C6DA</color>
+    <color name="accent_teal">#26A69A</color>
+
+    <!-- Surface and Background Colors -->
+    <color name="surface_elevated">#2C2C2C</color>
+    <color name="surface_primary">#1E1E1E</color>
+    <color name="background_light">#121212</color>
+    <color name="background_card">#1E1E1E</color>
+
+    <!-- Text Colors -->
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#E0E0E0</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="text_light">#757575</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Splash Screen Colors -->
+    <color name="splash_primary">#42A5F5</color>
+    <color name="splash_secondary">#66BB6A</color>
+    <color name="splash_accent">#26C6DA</color>
+    <color name="splash_gradient_start">#1E88E5</color>
+    <color name="splash_gradient_end">#4CAF50</color>
+</resources> 

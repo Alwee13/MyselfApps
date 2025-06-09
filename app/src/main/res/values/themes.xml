@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyselfAppsProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- New Theme with Blue-Mint Color Scheme -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_blue_dark</item>
+        <item name="colorSecondary">@color/primary_mint</item>
+        <item name="colorSecondaryVariant">@color/primary_mint_dark</item>
+        <item name="colorAccent">@color/accent_cyan</item>
+        <item name="colorSurface">@color/surface_elevated</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="android:statusBarColor">@color/primary_blue</item>
+        <item name="android:navigationBarColor">@color/background_light</item>
+    </style>
+
+    <style name="Theme.MyselfAppsProject" parent="Base.Theme.MyselfAppsProject" />
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.MyselfAppsProject.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyselfAppsProject</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

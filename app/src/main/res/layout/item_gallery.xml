@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_purple"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_purple"
+        android:orientation="vertical">
+
+        <!-- Gallery Image -->
+        <ImageView
+            android:id="@+id/ivGalleryImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@color/dark_purple"
+            tools:src="@drawable/profile_photo" />
+
+        <!-- Optional overlay for title (if needed) -->
+        <TextView
+            android:id="@+id/tvImageTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/surface_primary"
+            android:padding="12dp"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:visibility="gone"
+            tools:text="Image Title"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView> 
